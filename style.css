@@ -125,35 +125,65 @@ h4{
     color: rgb(196, 193, 193);
     padding-left: 70px;
 }
+.two-in{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-top: 20px;
+}
+.pay{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
 @media screen and (max-width: 950px){
     .second-div{
-        width: 40vh;
-        padding-top: 40px;
+        width: 55vh;
+        padding-top: 20px;
         margin-top: 50px;
         height: 60vh;
+        display: flex;
+        text-align: left;
     }
     .fi{
-        gap: 30px;
+        gap: 70px;
     }
     .ri{
-        gap: 95px;
+        gap: 140px;
     }
     .hh{
-        width: 40vh;
+        width: 55vh;
     }
     .first-in{
-        width: 30vh;
+        width: 50vh;
     }
     .second-in{
-        width: 40vh;
+        width: 55vh;
     }
     .pay button{
-        width: 35vh;
+        width: 45vh;
     }
     .first-div{
-        gap: 50px;
+        gap: 30px;
     }
     .r-div{
         padding-top: 50px;
+    }
+    .two-in{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .pay{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
     }
 }
