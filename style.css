@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.second-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 35vw;
+    height: 60vh;
+    border: solid 1px blue;
+    border-radius: 10px;
+    padding: 30px;
+}
+.b{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.r-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.dp img{
+    width: 200px;
+}
+.first-div{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    border-bottom:  solid 1px gray;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fi{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+.ri{
+    display: flex;
+    gap: 235px;
+    align-items: center;
+}
+.co button{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(214, 179, 247);
+    color: white;
+    border-radius: 05px;
+    border: solid 1px blue;
+    color: rgb(101, 4, 212);
+}
+.roo button{
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.first-in{
+    width: 450px;
+    height: 32px;
+    border: none;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.up{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.hh{
+    width: 75vh;
+    height: 35px;
+    border: solid 1px gray;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.two-in{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.second-in{
+    width: 75vh;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+}
+.pay button{
+    width: 65vh;
+    height: 35px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+.hhh{
+    color: rgb(156, 154, 154);
+}
+h4{
+    color: rgb(196, 193, 193);
+    padding-left: 70px;
+}
+@media screen and (max-width: 950px){
+    .second-div{
+        width: 40vh;
+        padding-top: 40px;
+        margin-top: 50px;
+        height: 60vh;
+    }
+    .fi{
+        gap: 30px;
+    }
+    .ri{
+        gap: 95px;
+    }
+    .hh{
+        width: 40vh;
+    }
+    .first-in{
+        width: 30vh;
+    }
+    .second-in{
+        width: 40vh;
+    }
+    .pay button{
+        width: 35vh;
+    }
+    .first-div{
+        gap: 50px;
+    }
+    .r-div{
+        padding-top: 50px;
+    }
+}
